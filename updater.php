@@ -71,6 +71,8 @@ class Smashing_Updater {
 		add_filter( 'plugins_api', array( $this, 'plugin_popup' ), 10, 3);
 		add_filter( 'upgrader_post_install', array( $this, 'after_install' ), 10, 3 );
 		add_action('woocommerce_breadcrumb','woocommerce_template_loop_product_title',10);
+		add_action('woocommerce_breadcrumb','	woocommerce_result_count ',10);
+	
 		// Add Authorization Token to download_package
 		add_filter( 'upgrader_pre_download',
 			function() {
