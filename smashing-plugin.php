@@ -10,6 +10,5 @@ if(!class_exists('Smashing_updater')) {{
 $updater = new Smashing_updater(__FILE__);
 $updater->set_username('HelloDearSir');
 $updater->set_repository('smashing-updater-plugin');
-
-$updater->initializse();
+$updater->initialize();
 ?>
