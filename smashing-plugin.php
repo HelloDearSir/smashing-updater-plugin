@@ -4,7 +4,7 @@ Plugin name: smashing
 */
 
 if(!class_exists('Smashing_updater')) {{
-    include_once( plugin_dir_path( __FILE__ ) . "updater.php");
+    include( plugin_dir_path( __FILE__ ) . "updater.php");
 }}
 
 $updater = new Smashing_updater(__FILE__);
