@@ -1,7 +1,7 @@
 <?php 
 /*
 Plugin name: smashing
-Version: 1.2
+Version: 1.3
 Description: Making our own badges and updating product attributes
 
 */
