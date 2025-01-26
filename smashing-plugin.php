@@ -1,6 +1,9 @@
 <?php 
 /*
 Plugin name: smashing
+Version: 1.2
+Description: Making our own badges and updating product attributes
+
 */
 
 if(!class_exists('Smashing_updater')) {{
